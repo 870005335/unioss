@@ -7,8 +7,8 @@ import (
 
 func TestOSS(t *testing.T) {
 	err := NewStorage(AliYunConst, Config{
-		KeyId:     "LTAI5t6kPgz1UzuaES4Vn19J",
-		KeySecret: "UdI8MFqQdBD13OyStAvf5ZfoV6mRUZ",
+		KeyId:     "",
+		KeySecret: "",
 		Endpoint:  "https://oss-cn-hangzhou.aliyuncs.com",
 		Bucket:    "oss-go-maktub",
 	})
