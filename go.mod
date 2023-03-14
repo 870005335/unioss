@@ -1,4 +1,4 @@
-module unioss
+module github.com/870005335/unioss
 
 go 1.19
 
